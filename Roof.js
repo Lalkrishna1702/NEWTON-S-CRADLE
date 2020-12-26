@@ -18,6 +18,7 @@ class Roof{
         translate(pos.x, pos.y);
         rectMode(CENTER);
         fill(255);
+        fill("lightblue");
         rect(0, 0, this.width, this.height);
         pop();
     }
